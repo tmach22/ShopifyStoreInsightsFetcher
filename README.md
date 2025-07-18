@@ -44,7 +44,7 @@ pip install -r requirements.txt
 ```
 
 4. Set OpenRouter API Key
-- .env file included with temp open router api key
+- create .env file with temp api key `OPEN_ROUTER_API_KEY = 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`
 
 5. Run the Server
 ```bash
