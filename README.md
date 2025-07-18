@@ -31,7 +31,6 @@ This project uses HTML scraping and LLMs (via OpenRouter) to extract:
 ```bash
 git clone https://github.com/your-username/shopify-insights-fetcher.git
 cd shopify-insights-fetcher
-cd backend
 ```
 
 2. Create and Activate a Virtual Environment
@@ -49,6 +48,7 @@ pip install -r requirements.txt
 
 5. Run the Server
 ```bash
+cd backend
 uvicorn main:app --reload
 ```
 The FastAPI server will be available at:
