@@ -44,7 +44,8 @@ pip install -r requirements.txt
 ```
 
 4. Set OpenRouter API Key
-- create .env file with temp api key `OPEN_ROUTER_API_KEY = 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`
+- create .env file with temp api key `OPEN_ROUTER_API_KEY = <your_open_router_api_key>`
+- This is uses deepseek v3 free tier model as the LLM, so it won't incurr any costs
 
 5. Run the Server
 ```bash
