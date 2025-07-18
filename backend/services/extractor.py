@@ -286,42 +286,48 @@ links: {links}
 
 Create the output as described before.
 """
-    OPEN_ROUTER_API_KEY = os.getenv("OPEN_ROUTER_API_KEY")
+    try:
+        OPEN_ROUTER_API_KEY = os.getenv("OPEN_ROUTER_API_KEY")
 
-    response = requests.post(
-        url="https://openrouter.ai/api/v1/chat/completions",
-        headers={
-            "Authorization": f"Bearer {OPEN_ROUTER_API_KEY}",
-            "Content-Type": "application/json"
-        },
-        data=json.dumps({
-            "model": "deepseek/deepseek-chat-v3-0324:free",
-            "messages": [{
-                "role": "user",
-                "content": prompt
-            }],
-            
-        })
-    )
+        response = requests.post(
+            url="https://openrouter.ai/api/v1/chat/completions",
+            headers={
+                "Authorization": f"Bearer {OPEN_ROUTER_API_KEY}",
+                "Content-Type": "application/json"
+            },
+            data=json.dumps({
+                "model": "deepseek/deepseek-chat-v3-0324:free",
+                "messages": [{
+                    "role": "user",
+                    "content": prompt
+                }],
+                
+            })
+        )
 
-    if not response.ok:
-        raise RuntimeError(f"LLM call failed: {response.status_code} {response.text}")
-    
-    content = response.json()["choices"][0]["message"]["content"]
-    loaded_data = json.loads(content)
+        print(f"Response: {response.json()}")
 
-    hero_products_links = []
-    potential_product_endpoints = []
+        if not response.ok:
+            raise RuntimeError(f"LLM call failed: {response.status_code} {response.text}")
+        
+        content = response.json()["choices"][0]["message"]["content"]
+        print(f"Content: {content}")
+        loaded_data = json.loads(content)
 
-    for product in loaded_data["hero_products"]:
-        if(product["product_url"]):
-            hero_products_links.append(urljoin(website_url, product["product_url"]))
+        hero_products_links = []
+        potential_product_endpoints = []
 
-    for link in loaded_data["potential_product_endpoints"]:
-        if(link["url"]):
-            potential_product_endpoints.append(urljoin(website_url, link["url"]))
+        for product in loaded_data["hero_products"]:
+            if(product["product_url"]):
+                hero_products_links.append(urljoin(website_url, product["product_url"]))
 
-    return {"hero_product_links": hero_products_links, "potential_product_endpoints": potential_product_endpoints}
+        for link in loaded_data["potential_product_endpoints"]:
+            if(link["url"]):
+                potential_product_endpoints.append(urljoin(website_url, link["url"]))
+
+        return {"hero_product_links": hero_products_links, "potential_product_endpoints": potential_product_endpoints}
+    except Exception as e:
+        raise e
 
 
 def extract_products_from_html_rule_based(page_html: str, base_url: str):
@@ -381,7 +387,6 @@ def extract_brand_insights(website_url: str) -> dict:
             res = requests.get(privacy_url, timeout=10)
             if res.ok:
                 privacy_policy = extract_text_from_policy_page(res.text)
-                print(f"Privacy policy: {privacy_policy}")
 
         social_handles = extract_social_handles_from_homepage(homepage.text)
 
@@ -390,6 +395,8 @@ def extract_brand_insights(website_url: str) -> dict:
         contact_details.append(contact_dict)
         
         possible_urls = discover_product_endpoints_via_llm(soup, website_url)
+
+        print(f"Possible URLs")
 
         product_catalog = []
         seen_urls = set()

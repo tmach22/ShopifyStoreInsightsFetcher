@@ -3,7 +3,7 @@ from pydantic import BaseModel, HttpUrl
 from services.extractor import extract_brand_insights
 
 class StoreRequest(BaseModel):
-    website_url: HttpUrl
+    website_url: HttpUrl = "https://colourpop.com/"
 
 router = APIRouter()
 

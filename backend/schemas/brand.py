@@ -13,7 +13,7 @@ class BrandInsights(BaseModel):
     return_policy: Optional[str]
     refund_policy: Optional[str]
     faqs: List[FAQ]
-    contact_details: List[str]
+    contact_details: List[dict]
     social_handles: List[str]
     brand_about: Optional[str]
     important_links: List[str]
