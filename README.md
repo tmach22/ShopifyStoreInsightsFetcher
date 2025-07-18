@@ -1,5 +1,7 @@
 # 🛒 Shopify Store Insights-Fetcher
 
+### Live ENDPOINT: https://shopifystoreinsightsfetcher.onrender.com/api/store/extract-brand-insights
+
 A FastAPI-powered backend to extract structured brand insights from any Shopify-based store — **without using the official Shopify API**.  
 This project uses HTML scraping and LLMs (via OpenRouter) to extract:
 
