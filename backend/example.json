@@ -1,0 +1,602 @@
+{
+    "hero_products": [
+        {
+            "name": "vanilla kisses lip care set",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/vanilla-kisses-lip-care-set"
+        },
+        {
+            "name": "the daily face cream",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/the-daily-face-cream"
+        },
+        {
+            "name": "brush of an eye brush kit",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/brush-of-an-eye-brush-kit"
+        },
+        {
+            "name": "strawberry feels",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/strawberry-feels"
+        },
+        {
+            "name": "vanilla moisturizing lip balm",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/vanilla-moisturizing-lip-balm"
+        },
+        {
+            "name": "i love it liquid blush",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/i-love-it-liquid-blush"
+        },
+        {
+            "name": "fade to hue pressed powder makeup palette",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/fade-to-hue-pressed-powder-makeup-palette"
+        },
+        {
+            "name": "twilight new moon x colourpop full collection",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/twilight-new-moon-x-colourpop-full-collection"
+        },
+        {
+            "name": "coconut face milk moisturizer",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/coconut-face-milk-moisturizer"
+        },
+        {
+            "name": "strawberry moisturizing lip balm",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/strawberry-moisturizing-lip-balm"
+        },
+        {
+            "name": "strawberry milk lip mask",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/strawberry-milk-lip-mask"
+        },
+        {
+            "name": "left on red",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/left-on-red"
+        },
+        {
+            "name": "delicious kisses",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/delicious-kisses"
+        },
+        {
+            "name": "sugar donut liquid highlighter",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/sugar-donut-liquid-highlighter"
+        },
+        {
+            "name": "smoke n roses brush roll",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/smoke-n-roses-brush-roll"
+        },
+        {
+            "name": "pinky promise lippie pencil trio",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/pinky-promise-lippie-pencil-trio"
+        },
+        {
+            "name": "hunny pot lip care kit",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/hunny-pot-lip-care-kit"
+        },
+        {
+            "name": "primer lippie stix",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/primer-lippie-stix"
+        },
+        {
+            "name": "strawberry lip mask moisturizer",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/strawberry-lip-mask-moisturizer"
+        },
+        {
+            "name": "runs with vampires lightweight lip gloss",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/runs-with-vampires-lightweight-lip-gloss"
+        },
+        {
+            "name": "stone cold fox cool tone eyeshadow palette",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/stone-cold-fox-cool-tone-eyeshadow-palette"
+        },
+        {
+            "name": "love triangle shadow stix set",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/love-triangle-shadow-stix-set"
+        },
+        {
+            "name": "stone cold cool tone makeup brush kit",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/stone-cold-cool-tone-makeup-brush-kit"
+        },
+        {
+            "name": "next spot shadow stix",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/next-spot-shadow-stix"
+        },
+        {
+            "name": "ventura blvd creme gel liner",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/ventura-blvd-creme-gel-liner"
+        },
+        {
+            "name": "colourpopsocket",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/colourpopsocket"
+        },
+        {
+            "name": "kiss of darkness lip care kit",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/kiss-of-darkness-lip-care-kit"
+        },
+        {
+            "name": "swerve creme gel liner",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/swerve-creme-gel-liner"
+        },
+        {
+            "name": "smoke n roses pressed powder palette",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/smoke-n-roses-pressed-powder-palette"
+        },
+        {
+            "name": "am to the pm",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/am-to-the-pm"
+        },
+        {
+            "name": "very berry",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/very-berry"
+        },
+        {
+            "name": "lock it in pretty fresh setting spray",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/lock-it-in-pretty-fresh-setting-spray"
+        },
+        {
+            "name": "neapolitan sundae",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/neapolitan-sundae"
+        },
+        {
+            "name": "vanilla lip scrub",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/vanilla-lip-scrub"
+        },
+        {
+            "name": "baby panda so juicy lip oil",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/baby-panda-so-juicy-lip-oil"
+        },
+        {
+            "name": "blue moon eyeshadow palette",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/blue-moon-eyeshadow-palette"
+        },
+        {
+            "name": "ritz",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/ritz"
+        },
+        {
+            "name": "strawberry milk lip scrub",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/strawberry-milk-lip-scrub"
+        },
+        {
+            "name": "the lil box of lippie stix",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/the-lil-box-of-lippie-stix"
+        },
+        {
+            "name": "ultimate makeup brush roll",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/ultimate-makeup-brush-roll"
+        },
+        {
+            "name": "rainbow rush",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/rainbow-rush"
+        },
+        {
+            "name": "build your own cheek palette",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/build-your-own-cheek-palette"
+        },
+        {
+            "name": "watermelon lip mask moisturizer",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/watermelon-lip-mask-moisturizer"
+        },
+        {
+            "name": "so elemental shadow palette",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/so-elemental-shadow-palette"
+        },
+        {
+            "name": "in the nude lippie stix vault",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/in-the-nude-lippie-stix-vault"
+        },
+        {
+            "name": "watermelon sugar fresh kiss glossy balm",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/watermelon-sugar-fresh-kiss-glossy-balm"
+        },
+        {
+            "name": "tide pool metallic blue pressed powder eyeshadow",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/tide-pool-metallic-blue-pressed-powder-eyeshadow"
+        },
+        {
+            "name": "the lil box of lippie pencils",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/the-lil-box-of-lippie-pencils"
+        },
+        {
+            "name": "build your own palette",
+            "price": null,
+            "image_url": null,
+            "product_url": "/products/build-your-own-palette"
+        }
+    ],
+    "potential_product_endpoints": [
+        {
+            "url": "/collections/sale",
+            "description": "Likely a sale or discounted products collection page.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/lips",
+            "description": "Collection page for lip products.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/disney-lilo-and-stitch",
+            "description": "Special collaboration collection page.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/mascara",
+            "description": "Collection page for mascara products.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/skincare-tools",
+            "description": "Collection page for skincare tools.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/face",
+            "description": "Collection page for face products.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/face-sets",
+            "description": "Collection page for face sets.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/masks",
+            "description": "Collection page for mask products.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/back-in-stock",
+            "description": "Collection page for items back in stock.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/face-sponges",
+            "description": "Collection page for face sponges.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/eye-brow-brushes",
+            "description": "Collection page for eyebrow brushes.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/glitters",
+            "description": "Collection page for glitter products.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/stranger-things",
+            "description": "Special collaboration collection page.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/lipstick-lip-stains",
+            "description": "Collection page for lipstick and lip stains.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/face-accessories",
+            "description": "Collection page for face accessories.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/eyeliner",
+            "description": "Collection page for eyeliner products.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/eye-sets",
+            "description": "Collection page for eye sets.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/body",
+            "description": "Collection page for body products.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/face-brushes",
+            "description": "Collection page for face brushes.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/brushes-tools",
+            "description": "Collection page for brushes and tools.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/blush",
+            "description": "Collection page for blush products.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/skincare",
+            "description": "Collection page for skincare products.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/lip-gloss-lip-oil",
+            "description": "Collection page for lip gloss and lip oils.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/primer-setting-sprays",
+            "description": "Collection page for primer and setting sprays.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/value-sets",
+            "description": "Collection page for value sets.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/nudes-palettes",
+            "description": "Collection page for nude palettes.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/toners-mists",
+            "description": "Collection page for toners and mists.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/shadow-palette",
+            "description": "Collection page for shadow palettes.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/toy-story",
+            "description": "Special collaboration collection page.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/lip-sets",
+            "description": "Collection page for lip sets.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/new-arrivals",
+            "description": "Collection page for new arrivals.",
+            "confidence": 95
+        },
+        {
+            "url": "/collections/colour-of-the-month-blue-jean-baby",
+            "description": "Collection page for featured color of the month.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/eyes",
+            "description": "Collection page for eye products.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/new-best-sellers",
+            "description": "Collection page for new best-selling products.",
+            "confidence": 95
+        },
+        {
+            "url": "/collections/disney",
+            "description": "Special collaboration collection page.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/monochromatic-palettes",
+            "description": "Collection page for monochromatic palettes.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/star-wars",
+            "description": "Special collaboration collection page.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/collabs",
+            "description": "Collection page for collaborations.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/bronzer-highlighter",
+            "description": "Collection page for bronzers and highlighters.",
+            "confidence": 90
+        },
+        {
+            "url": "https://colourpop.com/collections/best-sellers",
+            "description": "Collection page for best-selling products.",
+            "confidence": 95
+        },
+        {
+            "url": "/collections/colour-of-the-month",
+            "description": "Collection page for color of the month.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/eyeshadow",
+            "description": "Collection page for eyeshadow products.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/lip-care",
+            "description": "Collection page for lip care products.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/pokemon-x-colourpop-collection",
+            "description": "Special collaboration collection page.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/twilight",
+            "description": "Special collaboration collection page.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/complexion",
+            "description": "Collection page for complexion products.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/serums",
+            "description": "Collection page for serums.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/skincare-sets",
+            "description": "Collection page for skincare sets.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/moisturizers",
+            "description": "Collection page for moisturizers.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/bratz",
+            "description": "Special collaboration collection page.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/all",
+            "description": "Master collection page for all products.",
+            "confidence": 100
+        },
+        {
+            "url": "/collections/super-shock-shadow",
+            "description": "Collection page for super shock shadows.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/colorful-palettes",
+            "description": "Collection page for colorful palettes.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/brow",
+            "description": "Collection page for brow products.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/tangled",
+            "description": "Special collaboration collection page.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/lip-liner",
+            "description": "Collection page for lip liners.",
+            "confidence": 90
+        },
+        {
+            "url": "/collections/sailor-moon-makeup-collaboration",
+            "description": "Special collaboration collection page.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/eye-care",
+            "description": "Collection page for eye care products.",
+            "confidence": 85
+        },
+        {
+            "url": "/collections/winx-club",
+            "description": "Special collaboration collection page.",
+            "confidence": 80
+        },
+        {
+            "url": "/collections/collab-palettes",
+            "description": "Collection page for collaboration palettes.",
+            "confidence": 85
+        }
+    ],
+    "analysis_summary": "The homepage contains numerous hero products directly linked from the homepage, though specific details like price and image URLs are not visible in the provided HTML. Potential product listing endpoints are abundant, with high confidence in collection pages for various product categories and collaborations.",
+    "overall_confidence": 90
+}

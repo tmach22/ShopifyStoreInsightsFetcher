@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+.Python
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# Logs and debugging
+*.log
+*.tmp
+
+# macOS and Linux
+.DS_Store
+Thumbs.db
+
+# Cache and compiled files
+.cache/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Jupyter/IPython
+.ipynb_checkpoints
+
+# Local database files
+*.sqlite
+*.db
+*.db-journal
+
+# Pytest/mypy
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+
+# FastAPI-generated OpenAPI JSON
+openapi.json
+
+# Temporary LLM outputs or dumps
+llm_outputs/
+*.jsonl
+*.llm.cache
+
+# Pydantic or API docs
+*.schema.json
